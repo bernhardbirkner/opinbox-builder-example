@@ -43,11 +43,11 @@ npm run dev
 
 ### 5. Custom Expression
 
-You can register custom expression to SurveyJS following the example in `src/custom` or by looking at the SurveyJS (Docu)[https://surveyjs.io/form-library/examples/use-custom-functions-in-expressions/reactjs#content-code]
+You can register custom expression to SurveyJS following the example in `src/custom` or by looking at the SurveyJS [Docu](https://surveyjs.io/form-library/examples/use-custom-functions-in-expressions/reactjs#content-code)
 
 ### 6. Custom Components
 
-You can also register custom components to SurveyJS following the example in `src/components/DummyComponent` or by looking at the SurveyJS (Docu)[https://surveyjs.io/form-library/documentation/customize-question-types/third-party-component-integration-react]
+You can also register custom components to SurveyJS following the example in `src/components/DummyComponent` or by looking at the SurveyJS [Docu](https://surveyjs.io/form-library/documentation/customize-question-types/third-party-component-integration-react)
 
 ### 7. Run your survey
 
