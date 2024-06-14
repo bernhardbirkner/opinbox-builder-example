@@ -9,7 +9,7 @@ Example project using Vite + React and creating surveys using (Opinbox Builder)[
 (Any other React setup will work too!)
 
 ```bash
-pnpm create vite my-survey-builder --template react
+pnpm create vite@latest
 ```
 
 ## 2. Install dependencies
