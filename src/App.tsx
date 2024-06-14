@@ -1,6 +1,6 @@
 import { OpinboxBuilder } from 'opinbox-builder'
 // Import the production survey definition
-import { json } from './survey/json'
+import { json } from "./survey/json"
 // Import global CSS
 import './App.css';
 // Register custom expressions
