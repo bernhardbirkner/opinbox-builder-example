@@ -1,15 +1,15 @@
 import { Question } from "survey-core";
-import { ElementFactory } from "survey-core";
+import { ElementFactory } from "opinbox-builder";
 import { SurveyQuestionElementBase } from "survey-react-ui";
 import { Serializer } from "survey-core";
 import { createElement } from "react";
-import { ReactQuestionFactory } from "survey-react-ui";
+import { ReactQuestionFactory } from "opinbox-builder";
 import { localization } from "survey-creator-core";
-import { SvgRegistry } from "survey-core"
+import { SvgRegistry } from "opinbox-builder"
 import ReactDOMServer from "react-dom/server";
 
 const CUSTOM_TYPE = "dummy-picker";
-
+console.log("Registering Dummy Component")
 // Model
 export class QuestionDummyPickerModel extends Question {
     getType() {

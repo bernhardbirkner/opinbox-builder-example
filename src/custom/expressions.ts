@@ -1,4 +1,4 @@
-import { FunctionFactory } from "survey-core";
+import { FunctionFactory } from "opinbox-builder";
 
 let randomValue = Math.random()
 
@@ -14,3 +14,4 @@ export function randomOnChange() {
 }
 
 FunctionFactory.Instance.register("random", randomOnce);
+console.log("Registering random()")
