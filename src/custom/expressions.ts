@@ -12,6 +12,10 @@ export function parseTic() {
     return search.get("tic")
 }
 
+export function getRandomInt(max: number[]) {
+    return Math.floor(randomValue * max[0]);
+}
+
 // Create a random variable on each change of the user input
 // Most likely not a very interesting expression
 export function randomOnChange() {
@@ -20,4 +24,4 @@ export function randomOnChange() {
 
 FunctionFactory.Instance.register("random", randomOnce);
 FunctionFactory.Instance.register("tic", parseTic);
-console.log("Registering random()")
+FunctionFactory.Instance.register("randomGroups", getRandomInt);
