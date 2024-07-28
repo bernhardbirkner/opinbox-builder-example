@@ -7,6 +7,11 @@ export function randomOnce() {
     return randomValue
 }
 
+export function parseTic() {
+    const search = new URLSearchParams(window.location.search)
+    return search.get("tic")
+}
+
 // Create a random variable on each change of the user input
 // Most likely not a very interesting expression
 export function randomOnChange() {
@@ -14,4 +19,5 @@ export function randomOnChange() {
 }
 
 FunctionFactory.Instance.register("random", randomOnce);
+FunctionFactory.Instance.register("tic", parseTic);
 console.log("Registering random()")
